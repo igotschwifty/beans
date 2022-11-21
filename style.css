@@ -1,1 +1,24 @@
+.bean_banner {
+    width: 100%;
+    height: 10%;
+}
 
+.img_center_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xxx-large;
+    font-family: Gabriola;
+}
+
+.img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    transform: translate(0%, 125%);
+    background-color: rgba(128,128,128,0.75);
+}
